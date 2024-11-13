@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = 'rubocop_rails_pioz'
-  s.summary = 'Pioz Rubocop config for Rails'
+  s.summary = 'Pioz Ruby styling for Rails'
   s.author = 'Enrico Pilotto'
   s.email = 'epilotto@gmx.com'
   s.homepage = 'https://github.com/pioz/rubocop_rails_pioz'

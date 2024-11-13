@@ -1,4 +1,4 @@
-# Pioz Rubocop config for Rails
+# Pioz Ruby styling for Rails
 
 ## Installation
 
@@ -13,7 +13,7 @@ Then run `bundle`, then `bundle binstubs rubocop`.
 Then add a default `.rubocop.yml` file in the root of your application with:
 
 ```yml
-# Pioz Rubocop config for Rails
+# Pioz Ruby styling for Rails
 inherit_gem:
   rubocop_rails_pioz: rubocop.yml
 
