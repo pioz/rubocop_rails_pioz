@@ -9,5 +9,72 @@ require:
 AllCops:
   NewCops: enable
 
+FactoryBot/AssociationStyle:
+  EnforcedStyle: explicit
+
+Layout/ArgumentAlignment:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/LineLength:
+  Max: 180
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Layout/HashAlignment:
+  Enabled: false
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/BlockLength:
+  Max: 100
+
+Metrics/ClassLength:
+  Max: 100
+  Exclude:
+    - test/**/*.rb
+
+Metrics/MethodLength:
+  Max: 100
+
+Minitest/MultipleAssertions:
+  Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+  Exclude:
+    - config/application.rb
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashLikeCase:
+  Enabled: false
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/RedundantReturn:
+  Enabled: false
+
+Style/RedundantSelf:
+  Enabled: false
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
+
+Rails/RakeEnvironment:
+  Enabled: false
