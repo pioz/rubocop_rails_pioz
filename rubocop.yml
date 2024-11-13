@@ -44,9 +44,6 @@ Metrics/MethodLength:
 Minitest/MultipleAssertions:
   Enabled: false
 
-Rails/I18nLocaleTexts:
-  Enabled: false
-
 Style/ClassAndModuleChildren:
   EnforcedStyle: compact
   Exclude:
