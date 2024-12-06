@@ -38,11 +38,17 @@ Metrics/ClassLength:
   Exclude:
     - test/**/*.rb
 
+Metrics/CyclomaticComplexity:
+  Max: 25
+
 Metrics/MethodLength:
   Max: 100
 
 Metrics/ParameterLists:
   Enabled: false
+
+Metrics/PerceivedComplexity:
+  Max: 25
 
 Minitest/MultipleAssertions:
   Enabled: false
@@ -82,4 +88,7 @@ Rails/DynamicFindBy:
     - find_by_token_for!
 
 Rails/RakeEnvironment:
+  Enabled: false
+
+Rails/SkipsModelValidations:
   Enabled: false
