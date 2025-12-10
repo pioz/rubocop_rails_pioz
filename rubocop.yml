@@ -1,12 +1,12 @@
 plugins:
+  - rubocop-capybara
+  - rubocop-factory_bot
   - rubocop-minitest
   - rubocop-performance
   - rubocop-rails
   - rubocop-rake
 
 require:
-  - rubocop-capybara
-  - rubocop-factory_bot
   - ./lib/cops/errors_cop.rb
 
 AllCops:
